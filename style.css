@@ -60,9 +60,9 @@ main {
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: hsl(0, 0%, 100%);
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px 0;
     margin-top: 20px;
 }
