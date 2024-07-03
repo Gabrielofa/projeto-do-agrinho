@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #9c1e1e;
+    background-color: #4CAF50;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,16 @@ header {
 
 .logo img {
     height: 50px;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
 }
 
 .contact a {
@@ -58,7 +68,4 @@ footer {
     background-color: #f0f0f0;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
