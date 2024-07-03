@@ -1,61 +1,71 @@
-.body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #f8f8f8;
 }
-.header {
-    background-color: #a12e2a;
+
+header {
+    background-color: #4CAF50;
     color: white;
-    width: 100%;
-    padding: 5px 10px;
+    padding: 10px 0;
     text-align: center;
 }
-.nav {
-    background-color: #f2f2f2;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
+
+header h1 {
+    margin: 0;
 }
-.nav a {
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
     text-decoration: none;
-    color: #333;
-    padding: 10px 20px;
+    margin: 0 15px;
 }
-.nav a:hover {
-    background-color: #ddd;
-}
-.container {
+
+main {
     display: flex;
-    width: 80%;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-.texto {
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.text {
     flex: 1;
-    padding: 5px;
+    padding-right: 20px;
 }
-.foto {
-    
+
+.image {
     flex: 1;
-    text-align: center;
 }
-.foto img {
+
+.image img {
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    border-radius: 10px;
 }
-.footer {
-    background-color: #333;
+
+footer {
+    background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 10px 0;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    margin-top: 20px;
 }
-.Imagem{
-    display: flex;
+
+footer h2 {
+    margin: 0 0 10px;
 }
